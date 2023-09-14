@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react'
 import api from '../utilities/api'
 import { MyContext } from '../utilities/context'
+import arrow from "/src/assets/icon-arrow.svg"
 
 const Search = () => {
     const [ip, setIp] = useState("")
@@ -38,7 +39,7 @@ const Search = () => {
                 <div className='flex'>
                     <input type="text" className='text-sm focus:outline-none rounded-l-lg md:px-5 md:py-2 w-[200px] px-3 md:w-[25rem]' onChange={() => setIp(event.target.value)} />
                     <div className='bg-darkGray h-full w-10 rounded-r-lg flex items-center justify-center p-[0.7rem]' onClick={handleSearch}>
-                        <img src="/src/assets/icon-arrow.svg" alt="" />
+                        <img src={arrow} alt="" />
                     </div>
                 </div>
             </div>
