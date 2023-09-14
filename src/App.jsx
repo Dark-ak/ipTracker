@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <MyContext.Provider value={{ ipData, setIpData, setLocation }}>
-      <div className='flex flex-col justify-center font-rubik'>
+      <div className='flex flex-col justify-center font-rubik overflow-hidden'>
         <div className='bg-phone w-full md:bg-pc bg-cover h-56'>
           <Search />
           <Results />
