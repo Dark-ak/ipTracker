@@ -26,6 +26,7 @@ const Search = () => {
 
         else {
             await api.search(ip).then(response => {
+                setError()
                 setIpData(response)
                 setLocation(response.location)
             })
