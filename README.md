@@ -1,6 +1,6 @@
-# Space Landing Page
+# IP tracker
 
-A captivating Space Landing Page built using Vite, React, and Tailwind CSS.
+A web application that allows users to track and obtain information about IP addresses. This project is built using Vite, React, and Tailwind CSS.
 
 ## Table of Contents
 
